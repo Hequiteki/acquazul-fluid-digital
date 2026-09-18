@@ -226,7 +226,7 @@ export function AcquazulExperience() {
       <Header openSearch={() => setSearchOpen(true)} />
       <div className="relative z-10 mx-auto flex min-h-[820px] max-w-[1480px] flex-col justify-end px-5 pb-9 pt-32 md:min-h-[900px] md:px-10 md:pb-12">
         <div className="mb-auto mt-32 flex items-center gap-3 text-[10px] font-bold uppercase text-cyan tracking-[0.2em]"><span className="h-px w-10 bg-cyan" />Indústria química brasileira • desde 1995</div>
-        <h1 className="hero-title max-w-6xl text-[clamp(4.5rem,12vw,12rem)] font-black uppercase leading-[.77]">PRECISÃO<br /><span className="outline-text">EM CADA</span><br />GOTA.</h1>
+        <h1 className="hero-title max-w-6xl text-6xl font-black uppercase leading-[.77] sm:text-7xl md:text-9xl xl:text-[10rem]">PRECISÃO<br /><span className="outline-text">EM CADA</span><br />GOTA.</h1>
         <div className="mt-10 grid gap-8 border-t border-hero-line pt-7 md:grid-cols-[1fr_auto] md:items-end">
           <p className="max-w-xl text-base leading-relaxed text-hero-muted md:text-lg">Soluções químicas, tratamento de água, higiene profissional e equipamentos para transformar operações em Minas Gerais, Bahia e Espírito Santo.</p>
           <a href="#produtos" className="group flex items-center gap-4 text-xs font-bold uppercase tracking-[0.16em]">Explorar catálogo <span className="flex h-12 w-12 items-center justify-center rounded-full border border-cyan text-cyan transition-transform group-hover:translate-y-1"><ArrowDown /></span></a>
