@@ -131,6 +131,7 @@ function ProductExplorer() {
   const category = categories[selected];
   const track = useRef<HTMLDivElement>(null);
   const scroll = (direction: number) => track.current?.scrollBy({ left: direction * 360, behavior: "smooth" });
+  if (!category) return null;
   return (
     <section id="produtos" className="bg-surface py-20 md:py-30">
       <div className="mx-auto max-w-[1480px] px-5 md:px-10">
@@ -190,6 +191,7 @@ function Solutions() {
 function Units() {
   const [selected, setSelected] = useState(0);
   const unit = units[selected];
+  if (!unit) return null;
   return (
     <section id="unidades" className="bg-ice py-20 md:py-30">
       <div className="mx-auto max-w-[1480px] px-5 md:px-10">
